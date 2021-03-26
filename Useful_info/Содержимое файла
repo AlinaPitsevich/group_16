@@ -1,0 +1,26 @@
+cat [file-name]
+
+// пример
+cat index.html
+
+// сортировка и выборка уникальных значений
+cat [file-name] | sort | uniq
+
+// меньше контента
+less [file-name] // q - exit
+
+// n строк с начала файла
+head -50 [file-name]
+
+// n строк с конца файла
+tail -50 [file-name]
+
+
+// поиск слова
+grep [string] [file-name]
+
+// распаковка и просмотр содержимого архива
+unzip [achive-name]
+
+// тип файла
+file [file-name]
