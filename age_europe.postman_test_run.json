@@ -1,0 +1,604 @@
+{
+	"id": "a3382ed4-a4e9-4fc3-a717-b0e9c6cca7c7",
+	"name": "age_europe",
+	"timestamp": "2021-04-22T14:49:06.435Z",
+	"collection_id": "31a7ae3e-1576-4a61-a4d7-3d1cd88b4a99",
+	"folder_id": 0,
+	"environment_id": "31d5fb89-b1f2-4d2f-ba56-b4f59cd3bb81",
+	"totalPass": 27,
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "82e9ecb2-e70e-4392-81dc-863f43f4e8ba",
+			"name": "age_1",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches underage": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches underage": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches underage": true
+				}
+			]
+		},
+		{
+			"id": "843b2df9-9577-438f-a195-8be75ef4b889",
+			"name": "age_-1",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is not 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is not 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Status code is not 200": false
+				}
+			]
+		},
+		{
+			"id": "4985aca2-f912-4f10-bac6-071d46081053",
+			"name": "age_16",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "69f412b7-6238-4833-b7b9-6ebaf7b42f8e",
+			"name": "age_12",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "dabfc6b0-1b51-4714-8795-f60780586402",
+			"name": "age_17",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches underage": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches underage": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches underage": true
+				}
+			]
+		},
+		{
+			"id": "9b2427db-6cb3-4c08-a983-2a565eeb1437",
+			"name": "age_0",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches underage": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches underage": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches underage": true
+				}
+			]
+		},
+		{
+			"id": "6d3642df-6e03-4c5d-9644-00e039540c43",
+			"name": "age_18 Copy",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches adult": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches adult": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches adult": true
+				}
+			]
+		},
+		{
+			"id": "a7660329-a931-4c74-9c34-71988f3a0cb3",
+			"name": "age_19",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches adult": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches adult": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches adult": true
+				}
+			]
+		},
+		{
+			"id": "53956489-2d3e-45d2-95c9-d5e5d6c8895c",
+			"name": "age_49",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches adult": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches adult": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches adult": true
+				}
+			]
+		},
+		{
+			"id": "2b194e2a-e245-4709-96d4-51eb041fedae",
+			"name": "age_30",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches adult": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches adult": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches adult": true
+				}
+			]
+		},
+		{
+			"id": "40b31976-ed2c-4f04-b80e-a85df0b30429",
+			"name": "age_50",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches adult": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches adult": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches adult": false
+				}
+			]
+		},
+		{
+			"id": "a4ce1c63-1a2e-4cc5-b9e9-4b65bb379652",
+			"name": "age_51",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches antiquity": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches antiquity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches antiquity": true
+				}
+			]
+		},
+		{
+			"id": "1ffebfa3-3aaf-4544-9383-396dd9b53fe8",
+			"name": "age_75",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches antiquity": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches antiquity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches antiquity": true
+				}
+			]
+		},
+		{
+			"id": "85b39b31-79cf-488a-8ebe-1140f44fb682",
+			"name": "age_101",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 70,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 500": true,
+				"Body matches Internal Server Error": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Internal Server Error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 500": true,
+					"Body matches Internal Server Error": true
+				}
+			]
+		},
+		{
+			"id": "5f34176c-7bb4-424a-99ae-6b9beb0faa93",
+			"name": "age_99",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches antiquity": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches antiquity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches antiquity": true
+				}
+			]
+		},
+		{
+			"id": "4d657f48-43ba-4de0-958a-a0dd35957659",
+			"name": "age_100",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 69,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Body matches antiquity": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body matches antiquity": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Body matches antiquity": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1156,
+	"collection": {
+		"requests": [
+			{
+				"id": "82e9ecb2-e70e-4392-81dc-863f43f4e8ba",
+				"method": "POST"
+			},
+			{
+				"id": "843b2df9-9577-438f-a195-8be75ef4b889",
+				"method": "POST"
+			},
+			{
+				"id": "4985aca2-f912-4f10-bac6-071d46081053",
+				"method": "POST"
+			},
+			{
+				"id": "69f412b7-6238-4833-b7b9-6ebaf7b42f8e",
+				"method": "POST"
+			},
+			{
+				"id": "dabfc6b0-1b51-4714-8795-f60780586402",
+				"method": "POST"
+			},
+			{
+				"id": "9b2427db-6cb3-4c08-a983-2a565eeb1437",
+				"method": "POST"
+			},
+			{
+				"id": "6d3642df-6e03-4c5d-9644-00e039540c43",
+				"method": "POST"
+			},
+			{
+				"id": "a7660329-a931-4c74-9c34-71988f3a0cb3",
+				"method": "POST"
+			},
+			{
+				"id": "53956489-2d3e-45d2-95c9-d5e5d6c8895c",
+				"method": "POST"
+			},
+			{
+				"id": "2b194e2a-e245-4709-96d4-51eb041fedae",
+				"method": "POST"
+			},
+			{
+				"id": "40b31976-ed2c-4f04-b80e-a85df0b30429",
+				"method": "POST"
+			},
+			{
+				"id": "a4ce1c63-1a2e-4cc5-b9e9-4b65bb379652",
+				"method": "POST"
+			},
+			{
+				"id": "1ffebfa3-3aaf-4544-9383-396dd9b53fe8",
+				"method": "POST"
+			},
+			{
+				"id": "85b39b31-79cf-488a-8ebe-1140f44fb682",
+				"method": "POST"
+			},
+			{
+				"id": "5f34176c-7bb4-424a-99ae-6b9beb0faa93",
+				"method": "POST"
+			},
+			{
+				"id": "4d657f48-43ba-4de0-958a-a0dd35957659",
+				"method": "POST"
+			}
+		]
+	}
+}
