@@ -1,0 +1,266 @@
+{
+	"id": "0999d025-9810-46c5-b4f0-ce19f994a3a7",
+	"name": "Home work_2",
+	"timestamp": "2021-05-03T20:06:17.547Z",
+	"collection_id": "b36fccfb-d595-4c39-92d9-e61141e0a20b",
+	"folder_id": 0,
+	"environment_id": "31d5fb89-b1f2-4d2f-ba56-b4f59cd3bb81",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a1d19ae2-4258-4b0e-a96a-2c004cbdd680",
+			"name": "object_info_1",
+			"url": "http://116.203.27.46:5002/object_info_1?age=36&weight=60&name=Alina",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "508ba6e6-c3db-4c8b-a15e-a7365e7bae25",
+			"name": "object_info_2",
+			"url": "http://116.203.27.46:5002/object_info_2?age=36&salary=1500&name=Alina",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "17ff4cf6-d704-4ef4-b106-2a9a6b0ba438",
+			"name": "object_info_3",
+			"url": "http://116.203.27.46:5002/object_info_3?age=36&salary=1500&name=Alina",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "87ec3ed1-98aa-4d2d-996a-c96c5f57fa6a",
+			"name": "object_info_4",
+			"url": "http://116.203.27.46:5002/object_info_4?age=36&name=Alina&salary=1500",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e415e90a-2fbb-427d-951b-1a7a93b66dad",
+			"name": "user_info_1",
+			"url": "http://116.203.27.46:5002/user_info_1",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fdd18c5d-e68d-482f-b9f6-9fc3a342f069",
+			"name": "user_info_2",
+			"url": "http://116.203.27.46:5002/user_info_2",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b1fa9fdd-b79e-4bb2-81e7-820fd7fdff52",
+			"name": "user_info_3",
+			"url": "http://116.203.27.46:5002/user_info_3",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "23ac83ad-f89e-4ea0-bf57-ff7e82767ed7",
+			"name": "user_info_4",
+			"url": "http://116.203.27.46:5002/user_info_4",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 573,
+	"collection": {
+		"requests": [
+			{
+				"id": "a1d19ae2-4258-4b0e-a96a-2c004cbdd680",
+				"method": "GET"
+			},
+			{
+				"id": "508ba6e6-c3db-4c8b-a15e-a7365e7bae25",
+				"method": "GET"
+			},
+			{
+				"id": "17ff4cf6-d704-4ef4-b106-2a9a6b0ba438",
+				"method": "GET"
+			},
+			{
+				"id": "87ec3ed1-98aa-4d2d-996a-c96c5f57fa6a",
+				"method": "GET"
+			},
+			{
+				"id": "e415e90a-2fbb-427d-951b-1a7a93b66dad",
+				"method": "POST"
+			},
+			{
+				"id": "fdd18c5d-e68d-482f-b9f6-9fc3a342f069",
+				"method": "POST"
+			},
+			{
+				"id": "b1fa9fdd-b79e-4bb2-81e7-820fd7fdff52",
+				"method": "POST"
+			},
+			{
+				"id": "23ac83ad-f89e-4ea0-bf57-ff7e82767ed7",
+				"method": "POST"
+			}
+		]
+	}
+}
